@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    max-width: 10%;
+    border-width: 3px;
+    border-color: white;
+    margin-right: 45%;
+    margin-left: 45%;
+    /* margin-left: 35%!important;
+    margin-right: 35%!important; */
+}
+
+/* Top Nav */
+.main-top{
+    display: flex;
+    background-color: rgb(68, 67, 67);
+}
+
+.main-top > .Social a i{
+    margin-top: 11px;
+    margin-right: 10px;
+    color: white;
+}
+
+.Contact a{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.Login{
+    display: flex;
+    color: black!important;
+    font-family: 'Roboto', sans-serif;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    margin-right: .3rem;
+}
+
+/* Top Navar */
+.bg-nav{
+    background: rgba(7, 7, 7, 0.9);
+}
+
+.navbar-light .navbar-brand{
+    color: rgb(15, 230, 238)!important;
+    font-family: 'Share Tech', sans-serif;;
+}
+
+.top-fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+.navar-top{
+    display: flex;
+}
+
+.TopMenu{
+    padding: 1rem;
+    color:white!important;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.TopMenu:hover{
+    text-decoration: none;
+    color: rgb(250, 238, 74)!important;
+}
+
+.top-layer{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.top-layer h1{
+    position: absolute;
+    top: 25vh;
+    color: white;
+    left: 15%;
+    right: 15%;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.top-layer p{
+    position: absolute;
+    top: 40vh;
+    color: white;
+    left: 15%;
+    right: 15%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.top-layer a{
+    position: absolute;
+    top: 20vh;
+    left: 41%;
+    right: 41%;
+    background-color: rgb(92, 158, 160)!important;
+    color: black!important;
+    border-radius: 1rem!important;
+    border-width: 0;
+}
+
+.top-layer a:hover{
+    /* background-color: rgb(71, 235, 247)!important; */
+    box-shadow: 0 0 0 .2rem rgb(8, 129, 209) !important;
+}
+
+.carousel-inner img{
+    height: 86vh;    
+}
+
+.margin{
+    background-image: url(../img/bgf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1000px; 
+}
+
+.services-sec{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    background-color: rgb(68, 67, 67);
+    color: white;
+}
+
+.services-item{
+    text-align: center;
+    padding: 3rem;
+}
+
+@media(max-width:1300px){
+    .top-layer h1{
+        position: absolute;
+        top: 25vh;
+        color: white;
+        left: 15%;
+        right: 15%;
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .top-layer p{
+        position: absolute;
+        top: 50vh;
+        color: white;
+        left: 15%;
+        right: 15%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 40%;
+        right: 40%;
+    }
+}
+
+@media(max-width:1100px){
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 38%;
+        right: 38%;
+    }
+}
+
+@media(max-width:900px){
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 36%;
+        right: 36%;
+    }
+}
+
+@media(max-width:800px){
+    .top-layer h1{
+        position: absolute;
+        top: 25vh;
+        color: white;
+        left: 15%;
+        right: 15%;
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .top-layer p{
+        position: absolute;
+        top: 50vh;
+        color: white;
+        left: 15%;
+        right: 15%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 34%;
+        right: 34%;
+    }
+}
+
+@media(max-width:700px){
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 32%;
+        right: 32%;
+    }
+}
+
+@media(max-width:600px){
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 28%;
+        right: 28%;
+    }
+}
+
+@media(max-width:500px){
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 23%;
+        right: 23%;
+    }
+}
+
+@media(max-width:400px){
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 20%;
+        right: 20%;
+    }
+}
+
+@media(max-width:360px){
+    .top-layer h1{
+        position: absolute;
+        top: 25vh;
+        color: white;
+        left: 15%;
+        right: 15%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 20%;
+        right: 20%;
+    }
+}
