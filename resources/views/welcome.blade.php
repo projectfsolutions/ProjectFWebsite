@@ -13,7 +13,6 @@
         
         <link rel="stylesheet" href="css/fstyle.css">
      
-
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -44,7 +43,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-nav" id="m-navar">
             <a class="navbar-brand" href="#">
-                <img src="img/f_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                <img src="img/f_icon.png" width="40" height="40" class="d-inline-block" alt="">
                 Project F Software Solution
             </a>
             
@@ -86,7 +85,7 @@
                         <h1>YOUR RELIABLE</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, delectus.</p>
                         <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="#about" role="button">LEARN MORE</a>
+                            <a class="btn btn-primary btn-lg" href="#services" role="button">LEARN MORE</a>
                         </p>
                     </div>
                 </div>
@@ -96,7 +95,7 @@
                         <h1>SOFTWARE DEVELOPMENT</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, delectus.</p>
                         <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="#about" role="button">LEARN MORE</a>
+                            <a class="btn btn-primary btn-lg" href="#services" role="button">LEARN MORE</a>
                         </p>
                     </div>
                 </div>
@@ -106,7 +105,7 @@
                         <h1>PARTNER</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, delectus.</p>
                         <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="#about" role="button">LEARN MORE</a>
+                            <a class="btn btn-primary btn-lg" href="#services" role="button">LEARN MORE</a>
                         </p>
                     </div>
                 </div>
@@ -121,33 +120,133 @@
             </a>
         </div>
 
-        <section class="services-sec" id="about">
-
+        <section class="services-sec" id="services">
             <div class="container text-center ">
                 <h1>SERVICES</h1>
                 <hr>
             </div>
 
             <div class="container">
-     
-            </div>
-
-            <div class="container">
                 <div class="row services-item">
                     <div class="col-lg-6">
                         <img class="services-img" src="img/Services/desktop-app.png" alt="Generic placeholder image" width="200" height="200"> 
-                        <h2>Desktop Applications</h2>
+                        <h2>Customized Desktop Applications Development</h2>
                         <p>We are expert in system analysis in different kinds of business exercise and develop it for the smooth work process of business with a minimum amount of effort is applied. We also integrate devices with advance technology to make the solutions more effective and efficient to use. </p>
                     </div>
 
                     <div class="col-lg-6">
                         <img class="services-img" src="img/Services/web-app.png" alt="Generic placeholder image" width="200" height="200">
-                        <h2>Web Based Applications</h2>
+                        <h2>Customized Web Based Applications Development</h2>
                         <p>Because of the fast development of technology, web designs are now mobile friendly. So we cannot miss this opportunity to provide it for you. From PC applications to web development that responds to any mobile device's screen size. We are pleased to expand our services not only to PC applications, but also in your mobile devices and anywhere you are.</p>
                     </div>
                 </div>
             </div>
+
+            <div class="container text-center">
+                <div class="container tech-hd">
+                    <h2>Development Technologies</h2>
+                </div>
+                <div class="row tech-content">
+                    <div class="col-lg-2">                      
+                        <img class="tech-img" src="img/Services/Techs/vs.png" alt="Generic placeholder image" width="150" height="150">    
+                        <div class="overlay">Visual Studio</div>        
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/vb.net.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">VB.net</div>    
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/c-sharp.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">C Sharp</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/laravel.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">Laravel</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/php.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">PHP</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/html5.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">HTML5</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/css3.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">CSS3</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/js.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">Javascript</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/jquery.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">jquery</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/vuejs.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">Vuejs</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/mysql.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">MySQL</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="tech-img" src="img/Services/Techs/mssql.png" alt="Generic placeholder image" width="150" height="150">
+                        <div class="overlay">MS SQL</div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section class="partners-sec text-center" id="partners">
+            <div class="container">
+                <div class="container partners-hd">
+                    <h3>TRUSTED BY OUR PARTNERS</h3>
+                </div>
+
+                <div class="row partners-content">
+                    <div class="col-lg-6">
+                        <img class="tech-img partners-img" src="img/Partners/alphatech.jpg" alt="Generic placeholder image" width="150" height="150">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img class="tech-img partners-img" src="img/Partners/ssi.jpg" alt="Generic placeholder image" width="150" height="150">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-sec">
+            <div class="container text-center">
+                <div class="team-hd">
+                    <h1>OUR TEAM</h1>
+                    <hr>
+                </div>
+
+                <div class="row team-content">
+                    <div class="col-lg-12">
+                        <img class="team-img" src="img/Teams/fer.jpg" alt="Generic placeholder image" width="300" height="300">
+                        <div class="team-name">Fernan Cabrera</div>
+                        <div class="team-title">Lead Programmer</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-right footer-cont">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-copyR col-lg-12">
+                        Copyright &copy; 2020 Project F Software Solution
+                    </div>
+                    <div class="disc col-lg-12">
+                        All of the trademarks, trade names, and logos appearing on this site are the property of their respective owners.
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

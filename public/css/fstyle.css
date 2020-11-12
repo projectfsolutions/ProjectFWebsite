@@ -5,7 +5,7 @@
 
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 110px;
+    scroll-padding-top: 130px;
 }
 
 body{
@@ -57,6 +57,11 @@ hr{
 .navbar-light .navbar-brand{
     color: rgb(15, 230, 238)!important;
     font-family: 'Share Tech', sans-serif;;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgb(255, 255, 255)!important;
+    border-color: rgba(126, 121, 121, 0.897)!important;
 }
 
 .top-fixed{
@@ -117,7 +122,7 @@ hr{
     top: 20vh;
     left: 41%;
     right: 41%;
-    background-color: rgb(92, 158, 160)!important;
+    background-color: rgb(15, 230, 238)!important;
     color: black!important;
     border-radius: 1rem!important;
     border-width: 0;
@@ -125,24 +130,16 @@ hr{
 
 .top-layer a:hover{
     /* background-color: rgb(71, 235, 247)!important; */
-    box-shadow: 0 0 0 .2rem rgb(8, 129, 209) !important;
+    box-shadow: 0 0 0 .3rem rgb(2, 6, 247) !important;
 }
 
 .carousel-inner img{
     height: 86vh;    
 }
 
-.margin{
-    background-image: url(../img/bgf.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 1000px; 
-}
-
 .services-sec{
     padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     background-color: rgb(68, 67, 67);
     color: white;
 }
@@ -151,6 +148,105 @@ hr{
     text-align: center;
     padding: 3rem;
 }
+
+.tech-hd{
+    padding-bottom: 3rem;
+}
+
+.tech-content > div{
+    padding-bottom: 3rem;
+}
+
+.tech-img{
+    transition: transform .2s; /* Animation */
+}
+
+.tech-img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.overlay{
+  transition: .5s ease;
+  opacity:0;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.col-lg-2:hover .overlay{
+    opacity: 1;
+}
+
+.partners-sec{
+    /* padding-top: 6rem;
+    padding-bottom: 4rem; */
+    /* background-image: url(../img/bgf.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: rgba(36, 34, 34, 0.76);
+    color: white;
+}
+
+.partners-hd{
+    padding-bottom: 2rem;
+}
+
+.partners-img{
+    border-radius: 10%;
+}
+
+.team-sec{
+    padding-top:5rem;
+    padding-bottom: 4rem;
+    background-color: rgb(68, 67, 67);
+    color: white;
+}
+
+.team-content{
+    padding-top: 3rem;
+}
+
+.team-img{
+    border-radius: 100%;
+}
+
+.team-name{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.team-title{
+    font-size: 20px;
+    color:rgb(196, 196, 196);
+}
+
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(7, 7, 7);
+    font-size: 12px;
+}
+
+.footer-copyR{
+    color: white;
+    margin-top: 1rem;
+}
+
+.disc{
+    color: slategray;
+}
+
+
+/* .coat{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    top:0;
+    left:0;
+    background-color: rgba(7, 7, 7, 0.8);
+    width: 100%;
+    height: 500px;
+} */
 
 @media(max-width:1300px){
     .top-layer h1{
