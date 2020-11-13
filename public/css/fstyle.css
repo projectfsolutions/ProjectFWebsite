@@ -177,12 +177,7 @@ hr{
 }
 
 .partners-sec{
-    /* padding-top: 6rem;
-    padding-bottom: 4rem; */
-    /* background-image: url(../img/bgf.png); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;*/
+    
     padding-top: 2rem;
     padding-bottom: 3rem;
     background-color: rgba(36, 34, 34, 0.76);
@@ -235,8 +230,51 @@ footer{
 
 .disc{
     color: slategray;
+    font-style: italic;
 }
 
+.about-content{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color:  rgba(118, 124, 126, 0.8);
+    /* background-image: url(../img/bg-f2.png);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+}
+
+.vision-content{
+    margin-top: 10.5rem;
+    margin-right: 20px;
+    margin-left: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgb(15, 230, 238);
+}
+
+.f-content{
+    padding-top: 6rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    margin-top: -4rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.mission-content{
+    margin-top: 10.5rem;
+    margin-left: 20px;
+    margin-right: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgb(15, 230, 238);
+}
+
+.about-img{
+    margin-top: 2rem;
+    z-index: 1;
+}
 
 /* .coat{
     padding-top: 4rem;

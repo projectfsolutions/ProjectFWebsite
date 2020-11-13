@@ -40,9 +40,15 @@
                 
                 <!-- Authentication Links -->
                 @guest
-                    
+
                 @else
                     <li class="nav-item dropdown">
+                        @if (Route::has('register'))
+                            <a id="navbarDropdown" class="nav-link" href="{{ route('register') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
+                            Register
+                            </a>
+                        @endif
+
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
