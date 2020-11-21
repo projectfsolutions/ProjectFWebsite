@@ -23,5 +23,9 @@ Route::get('/About', function () {
     return view('About');
 });
 
+Route::get('/ContactUs', function () {
+    return view('ContactUs');
+});
+
 Auth::routes();
 Route::get('/AdminMain', 'HomeController@index')->name('AdminMain');

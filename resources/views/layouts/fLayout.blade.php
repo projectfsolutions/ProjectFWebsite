@@ -8,12 +8,15 @@
         <link rel="icon" href="img/f.ico" type="image/ico">
 
         <!-- Bootstrap4 CSS -->
-        <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/fstyle.css">
-     
+
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -59,7 +62,7 @@
                 <img src="img/f_icon.png" width="40" height="40" class="d-inline-block" alt="">
                 Project F Software Solution
             </a>
-            
+
             <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -73,13 +76,16 @@
                         <a class="js-scroll-trigger TopMenu" href="#" id="about">About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="js-scroll-trigger TopMenu" href="#" id="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="js-scroll-trigger TopMenu" href="#" id="clients">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="js-scroll-trigger TopMenu" href="#" id="contact">Contact Us</a>
+                        <a class="js-scroll-trigger TopMenu" href="#" id="contactus">Contact Us</a>
                     </li>
                 </ul>
-            </div>    
+            </div>
         </nav>
 
         @yield('content')
@@ -95,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -103,6 +109,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/758520e91e.js" crossorigin="anonymous"></script>
 
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="js/style.js"></script>
         <script src="js/navigation.js"></script>
     </body>

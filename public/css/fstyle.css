@@ -10,6 +10,7 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(68, 67, 67);
 }
 
 hr{
@@ -20,6 +21,18 @@ hr{
     margin-left: 45%;
     /* margin-left: 35%!important;
     margin-right: 35%!important; */
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.mr-auto{
+  margin-right: auto !important;
+}
+
+.ml-auto{
+  margin-left: auto !important;
 }
 
 /* Top Nav */
@@ -87,6 +100,8 @@ hr{
     color: rgb(250, 238, 74)!important;
 }
 
+/* Carousel */
+
 .top-layer{
     position: relative;
     position: absolute;
@@ -94,16 +109,16 @@ hr{
     left:0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
 }
 
 .top-layer h1{
     position: absolute;
-    top: 25vh;
+    top: 15vh;
     color: white;
     left: 15%;
     right: 15%;
-    font-size: 4rem;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -113,7 +128,7 @@ hr{
     color: white;
     left: 15%;
     right: 15%;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -134,7 +149,7 @@ hr{
 }
 
 .carousel-inner img{
-    height: 86vh;    
+    height: 86vh;
 }
 
 .services-sec{
@@ -144,12 +159,44 @@ hr{
     color: white;
 }
 
-.services-item{
-    text-align: center;
-    padding: 3rem;
+.services-div{
+    margin-bottom: 4rem;
+}
+
+.services-hd{
+    margin-bottom: 4rem;
+}
+
+.services-text{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.services-img{
+    border-radius: 20px;
+}
+
+.whatwedo-sec{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: rgb(83, 81, 81);
+    color: white;
+}
+
+.whatwedo-hd{
+    padding-bottom: 2rem;
+}
+
+.whatwedo-img{
+    border-radius: 100%;
+}
+
+.whatwedo-item >div{
+    padding: 1rem;
 }
 
 .tech-hd{
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -177,7 +224,7 @@ hr{
 }
 
 .partners-sec{
-    
+
     padding-top: 2rem;
     padding-bottom: 3rem;
     background-color: rgba(36, 34, 34, 0.76);
@@ -234,10 +281,10 @@ footer{
 }
 
 .about-content{
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 4rem;
     background-color:  rgba(118, 124, 126, 0.8);
-    /* background-image: url(../img/bg-f2.png);  
+    /* background-image: url(../img/bg-f2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;*/
@@ -249,7 +296,8 @@ footer{
     margin-left: 1rem;
     padding: 2rem;
     border-radius: 10px;
-    background-color: rgb(15, 230, 238);
+    font-size: 20px;
+    background-color: rgb(15, 175, 238);
 }
 
 .f-content{
@@ -259,6 +307,7 @@ footer{
     padding-left: 2rem;
     margin-top: -4rem;
     border-radius: 10px;
+    font-size: 20px;
     background-color: white;
 }
 
@@ -268,7 +317,8 @@ footer{
     margin-right: 1rem;
     padding: 2rem;
     border-radius: 10px;
-    background-color: rgb(15, 230, 238);
+    font-size: 20px;
+    background-color: rgb(15, 175, 238);
 }
 
 .about-img{
@@ -276,6 +326,49 @@ footer{
     z-index: 1;
 }
 
+.contactus-sec{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color:white;
+}
+
+.contactus-info{
+    padding-top: 3rem;
+}
+
+.contactus-hd{
+    padding-bottom: 1rem;
+    color: rgb(15, 230, 238);
+
+}
+
+.contactus-msg{
+    font-size: 20px;
+}
+
+.contactus-details{
+    padding-top:1rem;
+}
+
+.contactus-details > div{
+    padding-bottom: 0.5rem;
+}
+
+.contactus-details > div > i{
+    height:1rem;
+    font-size: 2.5em;
+}
+
+.contactus-details > div > p{
+    font-size: 20px;
+}
+
+.contactus-mail{
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: rgb(119, 116, 116);
+    color: white;
+}
 /* .coat{
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -296,7 +389,7 @@ footer{
         font-size: 3rem;
         text-align: center;
     }
-    
+
     .top-layer p{
         position: absolute;
         top: 50vh;
@@ -306,7 +399,7 @@ footer{
         font-size: 1.5rem;
         text-align: center;
     }
-    
+
     .top-layer a{
         position: absolute;
         top: 15vh;
@@ -324,12 +417,30 @@ footer{
     }
 }
 
+@media(max-width:991px){
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
+    }
+}
+
 @media(max-width:900px){
     .top-layer a{
         position: absolute;
         top: 15vh;
         left: 36%;
         right: 36%;
+    }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
     }
 }
 
@@ -343,7 +454,7 @@ footer{
         font-size: 3rem;
         text-align: center;
     }
-    
+
     .top-layer p{
         position: absolute;
         top: 50vh;
@@ -353,48 +464,104 @@ footer{
         font-size: 1rem;
         text-align: center;
     }
-    
+
     .top-layer a{
         position: absolute;
         top: 15vh;
         left: 34%;
         right: 34%;
     }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
+    }
 }
 
 @media(max-width:700px){
+    .top-layer h1{
+        font-size: 48px;
+    }
+
     .top-layer a{
         position: absolute;
         top: 15vh;
         left: 32%;
         right: 32%;
     }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
+    }
 }
 
 @media(max-width:600px){
+    .top-layer h1{
+        font-size: 45px;
+    }
+
     .top-layer a{
         position: absolute;
         top: 15vh;
         left: 28%;
         right: 28%;
     }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
+    }
 }
 
-@media(max-width:500px){
+@media(max-width:560px){
+    .top-layer h1{
+        font-size: 40px;
+    }
+
     .top-layer a{
         position: absolute;
         top: 15vh;
         left: 23%;
         right: 23%;
     }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
+    }
 }
 
-@media(max-width:400px){
+@media(max-width:460px){
+    .top-layer h1{
+        font-size: 37px;
+    }
+
     .top-layer a{
         position: absolute;
         top: 15vh;
         left: 20%;
         right: 20%;
+    }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
     }
 }
 
@@ -405,10 +572,10 @@ footer{
         color: white;
         left: 15%;
         right: 15%;
-        font-size: 2.5rem;
+        font-size: 37px;
         text-align: center;
     }
-    
+
 
     .top-layer a{
         position: absolute;
@@ -416,4 +583,23 @@ footer{
         left: 20%;
         right: 20%;
     }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
+    }
+}
+
+.slide-hd-animate{
+    animation: zoomInDown;
+    animation-duration: 2s;
+}
+
+.slide-btn-animate{
+    animation: fadeInDown;
+    animation-duration: 2s;
+    animation-delay: 2s;
 }

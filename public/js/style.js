@@ -11,3 +11,8 @@ $(window).scroll(function() {
         element.classList.remove("fixed-top");
     }
 });
+
+AOS.init({
+    duration: 1200,
+  })
+
