@@ -30,9 +30,6 @@
                         <div class="Social">
                             <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
                         </div>
-                        <div class="Social">
-                            <a href="#"><i class="fab fa-instagram-square fa-lg"></i></a>
-                        </div>
                         <div class="Login">
                             <a class="nav-link badge badge-light Login" href="{{ route('AdminMain') }}">Dashboard</a>
                         </div>
@@ -43,10 +40,7 @@
                             <a class="nav-link Contact" href="#">Globe:(0905)137-9350 | Smart:(0930)563-5500</a>
                         </div>
                         <div class="Social">
-                            <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
-                        </div>
-                        <div class="Social">
-                            <a href="#"><i class="fab fa-instagram-square fa-lg"></i></a>
+                            <a href="https://web.facebook.com/ProjectFSoftwareSolutions" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a>
                         </div>
                         <div class="Login">
                             <a class="nav-link badge badge-light Login" href="{{ route('login') }}">Login</a>
@@ -88,20 +82,21 @@
             </div>
         </nav>
 
-        @yield('content')
-
+        <div class="web-content-layout">
+            @yield('content')
+        </div>
+        {{-- {{json_encode(Route::current()->uri)}} --}}
         <footer class="text-right footer-cont">
             <div class="container">
                 <div class="row">
                     <div class="footer-copyR col-lg-12">
                         Copyright &copy; 2020 Project F Software Solution
                     </div>
-                    <div class="disc col-lg-12">
+                    <div class="footer-disc col-lg-12">
                         All of the trademarks, trade names, and logos appearing on this site are the property of their respective owners.
                     </div>
                 </div>
             </div>
-
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

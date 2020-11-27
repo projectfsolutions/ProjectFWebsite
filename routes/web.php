@@ -27,5 +27,27 @@ Route::get('/ContactUs', function () {
     return view('ContactUs');
 });
 
+Route::get('/Clients', function () {
+    return view('Clients');
+});
+
+Route::get('/Greetings', function () {
+    return view('Greetings');
+});
+
+Route::get('/Portfolio', function () {
+    return view('Portfolio');
+});
+
+Route::get('/OneTACS', function () {
+    return view('OneTACS');
+});
+
+Route::get('/ParkingPOS', function () {
+    return view('ParkingPOS');
+});
+
+Route::post('sendMail','MailController@store');
+
 Auth::routes();
 Route::get('/AdminMain', 'HomeController@index')->name('AdminMain');

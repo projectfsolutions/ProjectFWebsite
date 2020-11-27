@@ -124,7 +124,7 @@
             <div class="col-lg-4">
                 <img class="whatwedo-img" src="img/Services/door.png" alt="Generic placeholder image" width="200" height="200">
                 <h4>Door Access Control System</h4>
-                <p class="text-justify">Limit and monitor the access of tenants based on what permission you've given to their respective key cards that will read by the integrated RFID reader and trigger the doors to open or to remain closed.</p>
+                <p class="text-justify">Limit and monitor the access of tenants based on what permission you've given to their respective keycards that will read by the integrated RFID reader and trigger the doors to open or to remain closed.</p>
             </div>
 
             <div class="col-lg-4">
@@ -202,15 +202,15 @@
 
         <div class="row team-content">
             <div class="col-lg-6">
-                <img class="team-img" src="img/Teams/fer.jpg" alt="Generic placeholder image" width="300" height="300">
+                <img class="team-img" src="img/Team/fer10.jpg" alt="">
                 <div class="team-name">Fernan Cabrera</div>
                 <div class="team-title">Lead Programmer</div>
             </div>
 
             <div class="col-lg-6">
-                <img class="team-img" src="img/Teams/jess.jpg" alt="Generic placeholder image" width="300" height="300">
+                <img class="team-img" src="img/Team/jess2.jpg" alt="">
                 <div class="team-name">Jessa Velgado</div>
-                <div class="team-title">Software Documentation Specialist</div>
+                <div class="team-title">Lead Software Documentation</div>
             </div>
         </div>
     </div>

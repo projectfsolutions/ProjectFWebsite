@@ -16,3 +16,18 @@ AOS.init({
     duration: 1200,
   })
 
+$(function(){
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("img01");
+
+    $(document).on('click','.sub-portfolio-img',function(){
+
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    });
+
+    $(document).on('click','#xModal',function(event){
+        modal.style.display = "none";
+    });
+});
+

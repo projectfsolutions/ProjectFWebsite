@@ -33,34 +33,43 @@
             </div>
 
             <div class="contactus-mail container col-lg-6">
-                <div class="form-row">
-                    <div class="form-group col-lg-12">
-                        <label for="inpName">Name</label>
-                        <input type="text" class="form-control" id="inpName">
-                    </div>
+                <form action="/sendMail" method="POST">
+                    <div class="form-row">
+                        <div class="form-group col-lg-12">
+                            <label for="inpName">Name</label>
+                            <input type="text" name="name" class="form-control" id="inpName" value="">
+                            <small class="error-text">{{ $errors->first('name') }}</small>
+                        </div>
 
-                    <div class="form-group col-lg-6">
-                        <label for="inpEmail">Email</label>
-                        <input type="email" class="form-control" id="inpEmail">
-                    </div>
+                        <div class="form-group col-lg-6">
+                            <label for="inpEmail">Email</label>
+                            <input type="email" name="email" class="form-control" id="inpEmail" value="">
+                            <small class="error-text">{{ $errors->first('email') }}</small>
+                        </div>
 
-                    <div class="form-group col-lg-6">
-                        <label for="inpContact">Contact Number</label>
-                        <input type="text" class="form-control" id="inpContact">
-                    </div>
+                        <div class="form-group col-lg-6">
+                            <label for="inpContact">Contact Number</label>
+                            <input type="text" name="contact" class="form-control" id="inpContact" value="">
+                            <small class="error-text">{{ $errors->first('contact') }}</small>
+                        </div>
 
-                    <div class="form-group col-lg-12">
-                        <label for="inpCompany">Company/Institution</label>
-                        <input type="text" class="form-control" id="inpCompany">
-                    </div>
+                        <div class="form-group col-lg-12">
+                            <label for="inpCompany">Company/Institution</label>
+                            <input type="text" name="company" class="form-control" id="inpCompany" value="">
+                            <small class="error-text">{{ $errors->first('company') }}</small>
+                        </div>
 
-                    <div class="form-group col-lg-12">
-                        <label for="inpMsg">Message</label>
-                        <textarea type="text" class="form-control" id="inpMsg"></textarea>
-                    </div>
+                        <div class="form-group col-lg-12">
+                            <label for="inpMsg">Message</label>
+                            <textarea type="text" name="message" class="form-control" id="inpMsg"></textarea>
+                            <small class="error-text">{{ $errors->first('message') }}</small>
+                        </div>
 
-                    <input class="btn btn-primary" type="submit" value="Submit">
-                </div>
+                        @csrf
+
+                        <input class="btn btn-primary" type="submit" value="Send Message">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
