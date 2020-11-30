@@ -13,7 +13,7 @@
 
             <!-- Title -->
             <div class="">
-                <h2 class="mt-4">Car Park Point-Of-Sale System</h2>
+                <h2 class="mt-4">One Morayta Residence Management System</h2>
             </div>
 
             <!-- Author -->
@@ -25,7 +25,7 @@
             <hr class="portfolio-hr">
 
             <!-- Date/Time -->
-            <p>Posted on September 3, 2019</p>
+            <p>Posted on May 16, 2019</p>
 
             <hr class="portfolio-hr">
 
@@ -39,27 +39,32 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 </ol>
 
                 <div class="sub-porfolio-carousel carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS.png" alt="First slide" id="slide1">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS.png" alt="First slide" id="slide1">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS/Charging.png" alt="Second slide" id="slide2">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Stat.png" alt="Second slide" id="slide2">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS/Overnight.png" alt="Third slide" id="slide3">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Tenant.png" alt="Third slide" id="slide3">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS/OrAndLogout.jpg" alt="Fourth slide" id="slide4">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Contract.png" alt="Fourth slide" id="slide4">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS/SummAndZ.jpg" alt="Fifth slide" id="slide5">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Misce.png" alt="Fifth slide" id="slide5">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Billing.png" alt="Sixth slide" id="slide6">
                     </div>
                 </div>
 
@@ -78,46 +83,32 @@
             {{-- <p class="lead">Earn revenue with fully automated parking.</p> --}}
 
             <ul class="sub-portfolio-ul"><h4>System Main Features</h4>
-                <li>Vehicle Security because of the capture image comparison during arrival of the vehicle and before its exit.</li>
-                <li>Auto compute of the total amount of parking fee based on hourly rate and lenght of stay of the vehicle inside of the parking vicinity including the overnight rate if have.</li>
-                <li>Discount settings included the senior citizen discount with VAT exempt.</li>
-                <li>BIR generated reports.</li>
-                <li>Everyday reports of the vehicle that still remain inside the parking vicinity.</li>
+                <li>Monitoring of rooms and beds timeline.</li>
+                <li>Contract management and procedures.</li>
+                <li>Billings management.</li>
+                <li>Early reminders for the contracts and reservations near to expire.</li>
             </ul>
 
             <ul class="sub-portfolio-ul"><h4>System Customized Unique Features</h4>
-                <li>Marikina City Hall North Parking
-                    <ul>
-                        <li>Official receipt based on Marikina City Hall parking ticket.</li>
-                        <li>Generated reports based on Commission on Audit (COA)</li>
-                        <li>Every 10 pm to 6 am of the next day, the parking rate from 20 pesos for 2 hrs with 15 pesos for every succeeding hr will become 20 pesos per hour.</li>
-                    </ul>
-                </li>
+                <li>Software design and color.</li>
+                <li>Distribution of utilities billing to each bed occupant in the room.</li>
+                <li>Generated reports for billing.</li>
             </ul>
 
             <ul class="sub-portfolio-ul"><h4>Development Technology</h4>
-                <li>Visual Studio Vb.net</li>
+                <li>C Sharp</li>
+                <li>Visual Studio</li>
                 <li>MySQL Database</li>
             </ul>
 
-            <ul class="sub-portfolio-ul"><h4>Device Integrated</h4>
-                <li>13.56Mhz ISO 14443 A RFID Writer/Reader</li>
-                <li>Epson Dot Matrix POS Printer</li>
-                <li>USB Pole Display</li>
-                <li>Cash Drawer</li>
-                <li>Hikvision DVR and CCTV Camera</li>
-                <li>TCP/IP Door Access Control Board (Trigger relay to open the parking barrier.)</li>
-            </ul>
-
             <ul class="sub-portfolio-ul"><h4>Project Arrangement</h4>
-                <li>Third Party Contractor of <a href="http://alphatech.com.ph/" target="_blank">Alphatech Trading</a> for <a href="https://www.marikina.gov.ph/" target="_blank">Marikina City Hall</a> parking project.</li>
+                <li>Direct project contract of Software Customization to <a href="http://oneuniversityresidences.com/" target="_blank">One Morayta Residences</a> for their residence management and monitoring.</li>
             </ul>
 
             <ul class="sub-portfolio-ul sub-portfolio-benefits"><h4>System Benefits</h4>
-                <li>Vehicle security for being carnap or theft.</li>
-                <li>Make every transaction and movement of vehicles faster because of automatic parking fee calculation.</li>
-                <li>Prevent some human error like miscalculating the parking fee that could cause the parker's total fee to be reduced or overcharged.</li>
-                <li>Easy and secure balancing of your parking revenue sales because of sales generated reports that you can compare to the actual money in the cash drawer and prevent any mishandling of money and become safe againts loss or theft.</li>
+                <li>Easy monitoring of each contract timeline and vacancies.</li>
+                <li>Easy organizing and tracking of data of each resident.</li>
+                <li>Automatic calculation and contribution of utility billings.</li>
             </ul>
             </div>
 

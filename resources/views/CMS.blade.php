@@ -13,7 +13,7 @@
 
             <!-- Title -->
             <div class="">
-                <h2 class="mt-4">Car Park Point-Of-Sale System</h2>
+                <h2 class="mt-4">Card Management System</h2>
             </div>
 
             <!-- Author -->
@@ -25,7 +25,7 @@
             <hr class="portfolio-hr">
 
             <!-- Date/Time -->
-            <p>Posted on September 3, 2019</p>
+            <p>Posted on December 15, 2019</p>
 
             <hr class="portfolio-hr">
 
@@ -43,23 +43,23 @@
 
                 <div class="sub-porfolio-carousel carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS.png" alt="First slide" id="slide1">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/CMS.png" alt="First slide" id="slide1">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS/Charging.png" alt="Second slide" id="slide2">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/CMS/Transact1.png" alt="Second slide" id="slide2">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS/Overnight.png" alt="Third slide" id="slide3">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/CMS/Loyalty.png" alt="Third slide" id="slide3">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS/OrAndLogout.jpg" alt="Fourth slide" id="slide4">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/CMS/Detailed.png" alt="Fourth slide" id="slide4">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/ParkingPOS/SummAndZ.jpg" alt="Fifth slide" id="slide5">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/CMS/Summ.png" alt="Fifth slide" id="slide5">
                     </div>
                 </div>
 
@@ -78,19 +78,16 @@
             {{-- <p class="lead">Earn revenue with fully automated parking.</p> --}}
 
             <ul class="sub-portfolio-ul"><h4>System Main Features</h4>
-                <li>Vehicle Security because of the capture image comparison during arrival of the vehicle and before its exit.</li>
-                <li>Auto compute of the total amount of parking fee based on hourly rate and lenght of stay of the vehicle inside of the parking vicinity including the overnight rate if have.</li>
-                <li>Discount settings included the senior citizen discount with VAT exempt.</li>
-                <li>BIR generated reports.</li>
-                <li>Everyday reports of the vehicle that still remain inside the parking vicinity.</li>
+                <li>Card issuance for turnstile access.</li>
+                <li>Limit and control turnstile access based on the day and time of event only.</li>
+                <li>Monitoring of the total quantity of cards issued and inserted into the turnstile and those not yet inserted and used.</li>
             </ul>
 
             <ul class="sub-portfolio-ul"><h4>System Customized Unique Features</h4>
-                <li>Marikina City Hall North Parking
+                <li>RV Laborte Devt. Corp.
                     <ul>
-                        <li>Official receipt based on Marikina City Hall parking ticket.</li>
-                        <li>Generated reports based on Commission on Audit (COA)</li>
-                        <li>Every 10 pm to 6 am of the next day, the parking rate from 20 pesos for 2 hrs with 15 pesos for every succeeding hr will become 20 pesos per hour.</li>
+                        <li>Issuance of loyalty cards that can earn points for each card purchased to access turnstile.</li>
+                        <li>Earned points can use to buy cards to access the turnstile.</li>
                     </ul>
                 </li>
             </ul>
@@ -102,22 +99,18 @@
 
             <ul class="sub-portfolio-ul"><h4>Device Integrated</h4>
                 <li>13.56Mhz ISO 14443 A RFID Writer/Reader</li>
-                <li>Epson Dot Matrix POS Printer</li>
-                <li>USB Pole Display</li>
-                <li>Cash Drawer</li>
-                <li>Hikvision DVR and CCTV Camera</li>
-                <li>TCP/IP Door Access Control Board (Trigger relay to open the parking barrier.)</li>
+                <li>CRT-310 Card Capturer</li>
+                <li>IO relay board</li>
             </ul>
 
             <ul class="sub-portfolio-ul"><h4>Project Arrangement</h4>
-                <li>Third Party Contractor of <a href="http://alphatech.com.ph/" target="_blank">Alphatech Trading</a> for <a href="https://www.marikina.gov.ph/" target="_blank">Marikina City Hall</a> parking project.</li>
+                <li>Direct project contract of software customization to <a href="https://toyotaquezonavenue.ph/" target="_blank">RV Laborte Devt. Corp.</a> for their existing Turnstile System.</li>
             </ul>
 
             <ul class="sub-portfolio-ul sub-portfolio-benefits"><h4>System Benefits</h4>
-                <li>Vehicle security for being carnap or theft.</li>
-                <li>Make every transaction and movement of vehicles faster because of automatic parking fee calculation.</li>
-                <li>Prevent some human error like miscalculating the parking fee that could cause the parker's total fee to be reduced or overcharged.</li>
-                <li>Easy and secure balancing of your parking revenue sales because of sales generated reports that you can compare to the actual money in the cash drawer and prevent any mishandling of money and become safe againts loss or theft.</li>
+                <li>Crowd control and security of vicinity. (No access card no entry.)</li>
+                <li>Easy monitoring of cards issued if the buyers used it or just keep it.</li>
+                <li>Encourage your customer to always visit you because of loyalty card benefits.</li>
             </ul>
             </div>
 

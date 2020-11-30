@@ -47,6 +47,27 @@ Route::get('/ParkingPOS', function () {
     return view('ParkingPOS');
 });
 
+Route::get('/ToyotaSurvey', function () {
+    return view('ToyotaSurvey');
+});
+
+Route::get('/RMS', function () {
+    return view('RMS');
+});
+
+Route::get('/CMS', function () {
+    return view('CMS');
+});
+
+Route::get('/RAMS', function () {
+    return view('RAMS');
+});
+
+Route::get('/VMS', function () {
+    return view('VMS');
+});
+
+
 Route::post('sendMail','MailController@store');
 
 Auth::routes();

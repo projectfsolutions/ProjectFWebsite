@@ -18,12 +18,4 @@ $(function(){
     $(document).on('click','#portfolio',function(){
         window.location.replace('/Portfolio');
     });
-
-    $(document).on('click','#OneTACS',function(){
-        window.location.replace('/OneTACS');
-    });
-
-    $(document).on('click','#ParkingPOS',function(){
-        window.location.replace('/ParkingPOS');
-    });
 });

@@ -23,7 +23,7 @@
                 <hr class="portfolio-hr">
 
                 <!-- Date/Time -->
-                <p>Posted on March 3, 2019 at 2:00 PM</p>
+                <p>Posted on March 3, 2019</p>
 
                 <hr class="portfolio-hr">
 
@@ -75,14 +75,14 @@
                 <ul class="sub-portfolio-ul"><h4>System Main Features</h4>
                     <li>Real-time access monitoring.</li>
                     <li>Anti-passback security.</li>
-                    <li>Card registration expiration and renewal.</li>
-                    <li>Card access blocking.</li>
-                    <li>Time in and out logs report.</li>
+                    <li>Keycard registration with expiration.</li>
+                    <li>Keycard access blocking.</li>
+                    <li>Time in and time out logs report.</li>
                 </ul>
 
                 <ul class="sub-portfolio-ul"><h4>System Customized Unique Features</h4>
-                    <li>Software form factor design and color.</li>
-                    <li>Group access control (Specific time and day of the week that the student residents who listed is blocked to access the turnstile.)</li>
+                    <li>Software design and color.</li>
+                    <li>Restrict some student residents to access turnstile to come out with the specific time and day of the week because of the curfew.</li>
                     <li>Voice prompt for every unsuccessful access to the turnstile because of failing to provide the necessary requirements to open it.</li>
                 </ul>
 
@@ -96,7 +96,7 @@
                 </ul>
 
                 <ul class="sub-portfolio-ul"><h4>Project Arrangement</h4>
-                    <li>Direct project contract of Software Customization to <a href="http://oneuniversityresidences.com/" target="_blank">One Morayta Residences</a>  existing turnstile.</li>
+                    <li>Direct project contract of Software Customization to <a href="http://oneuniversityresidences.com/" target="_blank">One Morayta Residences</a> for their existing turnstile.</li>
                 </ul>
 
                 <ul class="sub-portfolio-ul sub-portfolio-benefits"><h4>System Benefits</h4>
