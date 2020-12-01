@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -35,7 +36,6 @@ body{
 .load > img{
     height: 150px;
     width: 150px;
-
 }
 
 .load .cover{
@@ -61,6 +61,7 @@ body{
 
 .web-content-layout{
     flex: 1 0 auto;
+    flex-wrap: wrap;
 }
 
 footer{
@@ -204,6 +205,9 @@ a:hover{
 }
 
 /* Carousel */
+.home-top-sec{
+    width: 100%;
+}
 
 .top-layer{
     position: relative;
@@ -253,6 +257,7 @@ a:hover{
 
 .carousel-inner img{
     height: 86vh;
+    width: 100%;
 }
 
 .services-sec{
@@ -658,6 +663,11 @@ a:hover{
         left: 40%;
         right: 40%;
     }
+
+    .carousel-inner img{
+        height: 86vh;
+        width: 100%;
+    }
 }
 
 @media(max-width:1100px){
@@ -815,16 +825,36 @@ a:hover{
     .mission-content{
         margin-top: 3rem;
     }
+
+    .services-div{
+        margin-bottom: 4rem;
+        margin: 1rem;
+        width: 70%;
+    }
+
+    .services-text{
+        margin-top: 2rem;
+        font-size: 18px;
+    }
+
+    .services-text > h1{
+        font-size: 28px;
+    }
+
+    .services-img{
+        height: 225px;
+        width: 275px;
+    }
 }
 
-@media(max-width:360px){
+@media(max-width:420px){
     .top-layer h1{
         position: absolute;
         top: 25vh;
         color: white;
         left: 15%;
         right: 15%;
-        font-size: 37px;
+        font-size: 30px;
         text-align: center;
     }
 
@@ -834,6 +864,71 @@ a:hover{
         top: 15vh;
         left: 20%;
         right: 20%;
+    }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
+    }
+
+    .services-img{
+        height: 150px;
+        width: 200px;
+    }
+
+    .services-text > h1{
+        font-size: 26px;
+    }
+}
+
+@media(max-width:360px){
+    .top-layer h1{
+        position: absolute;
+        top: 25vh;
+        color: white;
+        left: 15%;
+        right: 15%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 20%;
+        right: 20%;
+    }
+
+    .vision-content{
+        margin-top: 4rem;
+    }
+
+    .mission-content{
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width:340px){
+    .top-layer h1{
+        position: absolute;
+        top: 25vh;
+        color: white;
+        left: 15%;
+        right: 15%;
+        font-size: 28px;
+        text-align: center;
+    }
+
+
+    .top-layer a{
+        position: absolute;
+        top: 15vh;
+        left: 16%;
+        right: 16%;
     }
 
     .vision-content{

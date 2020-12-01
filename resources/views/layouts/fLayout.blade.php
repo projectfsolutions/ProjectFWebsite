@@ -54,6 +54,7 @@
             @endif
         </div>
 
+
         <nav class="navbar navbar-expand-lg navbar-light bg-nav" id="m-navar">
             <a class="navbar-brand" href="/HomePage">
                 <img src="img/f_icon.png" width="40" height="40" class="d-inline-block" alt="">

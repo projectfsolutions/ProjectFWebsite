@@ -1,52 +1,52 @@
 @extends('layouts.fLayout')
 
 @section('content')
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-100" src="img/Slides/idea1.jpg" alt="First slide">
-            <div class="top-layer">
-                <h1 class="slide-hd-animate">YOU'VE GOT AN IDEA BUT YOU DIDN'T KNOW IF THAT IS POSSIBLE?</h1>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
-                </p>
+<section class="home-top-sec">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/Slides/idea1.jpg" alt="First slide">
+                <div class="top-layer">
+                    <h1 class="slide-hd-animate">YOU'VE GOT AN IDEA BUT YOU DIDN'T KNOW IF THAT IS POSSIBLE?</h1>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Slides/papers3.jpg" alt="Second slide">
+                <div class="top-layer">
+                    <h1 class="slide-hd-animate">TIRED FROM PAPER WORKS AND REPEATABLE MANUAL INTERVENTIONS?</h1>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Slides/projects2.jpg" alt="Second slide">
+                <div class="top-layer">
+                    <h1 class="slide-hd-animate">FINDING SOLUTIONS TO PROVIDE UNIQUE AUTOMATED SYSTEM FOR YOUR PARTICULAR PROJECT?</h1>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/Slides/papers3.jpg" alt="Second slide">
-            <div class="top-layer">
-                <h1 class="slide-hd-animate">TIRED FROM PAPER WORKS AND REPEATABLE MANUAL INTERVENTIONS?</h1>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
-                </p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/Slides/projects2.jpg" alt="Second slide">
-            <div class="top-layer">
-                <h1 class="slide-hd-animate">FINDING SOLUTIONS TO PROVIDE UNIQUE AUTOMATED SYSTEM FOR YOUR PARTICULAR PROJECT?</h1>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
-                </p>
-            </div>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
+</section>
 <section class="services-sec" id="services">
     <div class="container text-center services-hd">
         <h1>SERVICES</h1>
@@ -66,11 +66,11 @@
         </div>
 
         <div class="row services-div">
-            <div class="col-lg-6 text-left aos-init aos-animate" data-aos="fade-right">
+            <div class="col-lg-6 aos-init aos-animate" data-aos="fade-right">
                 <img class="services-img" src="img/Services/integration.jpg" alt="Generic placeholder image" width="380" height="300">
             </div>
 
-            <div class="services-text col-lg-6 aos-init aos-animate" data-aos-delay="500" data-aos="fade-left">
+            <div class="services-text col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos-delay="500" data-aos="fade-left">
                 <h1>Software and Hardware Integration</h1>
                 <p>Most of the hardware devices are for input and output purposes only, and we can maximize these potentials by creating and developing the software interface that can handle and decide what will happen to the inputted data and what will need to show as output.</p>
             </div>
