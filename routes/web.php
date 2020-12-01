@@ -19,6 +19,10 @@ Route::get('/HomePage', function () {
     return view('HomePage');
 });
 
+Route::get('/Admin', function () {
+    return view('HomePage');
+});
+
 Route::get('/About', function () {
     return view('About');
 });

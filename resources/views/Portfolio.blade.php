@@ -64,7 +64,7 @@
                 <img class="img-fluid rounded mb-3 mb-md-0" src="img/Portfolio/Survey.png" alt="">
             </div>
             <div class="col-md-5">
-                <h3>Toyota QA Survey System with CMS</h3>
+                <h3>Toyota Quezon Avenue Survey System with CMS</h3>
                 <p>Responsive Web-Based Survey System that they used to take survey to their clients via tablet.</p>
                 <a class="btn btn-primary" href="/ToyotaSurvey" id="ToyotaSurvey">Learn more</a>
             </div>

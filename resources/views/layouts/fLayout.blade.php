@@ -42,9 +42,12 @@
                         <div class="Social">
                             <a href="https://web.facebook.com/ProjectFSoftwareSolutions" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a>
                         </div>
-                        <div class="Login">
-                            <a class="nav-link badge badge-light Login" href="{{ route('login') }}">Login</a>
-                        </div>
+
+                        @if (\Request::is('Admin'))
+                            <div class="Login">
+                                <a class="nav-link badge badge-light Login" href="{{ route('login') }}">Login</a>
+                            </div>
+                        @endif
                     </div>
                     @endauth
                 </div>

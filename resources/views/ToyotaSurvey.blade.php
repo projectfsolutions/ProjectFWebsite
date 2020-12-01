@@ -13,7 +13,7 @@
 
             <!-- Title -->
             <div class="">
-                <h2 class="mt-4">Toyota QA Survey System with CMS</h2>
+                <h2 class="mt-4">Toyota Quezon Avenue Survey System with CMS</h2>
             </div>
 
             <!-- Author -->
@@ -121,7 +121,22 @@
                         <div class="col-lg-12">
                         <ul class="list-unstyled mb-0">
                             <li>
-                            <a href="#">Parking System</a>
+                                <a href="/VMS">Visitor Management System</a>
+                            </li>
+                            <li>
+                                <a href="/RAMS">Grass Residence Access Monitoring System</a>
+                            </li>
+                            <li>
+                                <a href="/CMS">Card Management System</a>
+                            </li>
+                            <li>
+                                <a href="/ParkingPOS">Car Park Point-Of-Sale System</a>
+                            </li>
+                            <li>
+                                <a href="/RMS">One Morayta Residence Management System</a>
+                            </li>
+                            <li>
+                                <a href="/OneTACS">One Morayta Turnstile Access Control System</a>
                             </li>
                         </ul>
                         </div>

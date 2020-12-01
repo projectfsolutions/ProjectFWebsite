@@ -25,7 +25,7 @@
             <hr class="portfolio-hr">
 
             <!-- Date/Time -->
-            <p>Posted on May 16, 2019</p>
+            <p>Posted on December 01, 2020</p>
 
             <hr class="portfolio-hr">
 
@@ -39,32 +39,27 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 </ol>
 
                 <div class="sub-porfolio-carousel carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS.jpg" alt="First slide" id="slide1">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/VMS.png" alt="First slide" id="slide1">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Stat.png" alt="Second slide" id="slide2">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/VMS/Entry.png" alt="Second slide" id="slide2">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Tenant.png" alt="Third slide" id="slide3">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/VMS/Exit.png" alt="Third slide" id="slide3">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Contract.png" alt="Fourth slide" id="slide4">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/VMS/InLogs.png" alt="Fourth slide" id="slide4">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Misce.png" alt="Fifth slide" id="slide5">
-                    </div>
-
-                    <div class="carousel-item">
-                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/RMS/Billing.png" alt="Sixth slide" id="slide6">
+                        <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/VMS/InOutLogs.png" alt="Fifth slide" id="slide5">
                     </div>
                 </div>
 
@@ -83,31 +78,34 @@
             {{-- <p class="lead">Earn revenue with fully automated parking.</p> --}}
 
             <ul class="sub-portfolio-ul"><h4>System Main Features</h4>
-                <li>Monitoring of rooms and beds timeline.</li>
-                <li>Contract management and procedures.</li>
-                <li>.</li>
+                <li>Management and monitoring of visitors.</li>
+                <li>Encoding of visitor information with captured image of actual appearance and handed over ID.</li>
             </ul>
 
             <ul class="sub-portfolio-ul"><h4>System Customized Unique Features</h4>
-                <li>Software design and color.</li>
-                <li>Generated reports.</li>
+                <li>Grass Residences Quezon City
+                    <ul>
+                        <li>Listing of units number with floor number.</li>
+                    </ul>
+                </li>
             </ul>
 
             <ul class="sub-portfolio-ul"><h4>Development Technology</h4>
-                <li>PHP Framework Laravel</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>jQuery</li>
+                <li>Visual Studio Vb.net</li>
                 <li>MySQL Database</li>
             </ul>
 
+            <ul class="sub-portfolio-ul"><h4>Device Integrated</h4>
+                <li>Web Cam Camera</li>
+            </ul>
+
             <ul class="sub-portfolio-ul"><h4>Project Arrangement</h4>
-                <li>Direct project contract of software customization to <a href="https://toyotaquezonavenue.ph/" target="_blank">Toyota Quezon Avenue</a> for their Survey System.</li>
+                <li>Third Party Contractor of <a href="" target="_blank">Synchronized Solutions Inc.</a> for <a href="" target="_blank">Grass Residences Quezon City</a> Door Access Control System.</li>
             </ul>
 
             <ul class="sub-portfolio-ul sub-portfolio-benefits"><h4>System Benefits</h4>
-                <li>Quick and real-time results for every participants who completed the questionnaire.</li>
-                <li>Easy analysis of survey responses by the use of the generated reports which will show you the possible issues or concerns that need to be addressed quickly.</li>
+                <li>Reduced running cost because you didn't need to purchase new paper for visitor booklet and badges.</li>
+                <li>Enhance the security of your premises because of the detailed information record of each visitor who visits your establishment. It's easy for the receptionist to track the visitor for any unwanted circumstances because of the recorded actual photo of the visitor and what unit and floor he went to for his/her visit.</li>
             </ul>
             </div>
 
@@ -119,11 +117,26 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-12">
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                            <a href="#">Parking System</a>
-                            </li>
-                        </ul>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="/RAMS">Grass Residence Access Monitoring System</a>
+                                </li>
+                                <li>
+                                    <a href="/CMS">Card Management System</a>
+                                </li>
+                                <li>
+                                    <a href="/ParkingPOS">Car Park Point-Of-Sale System</a>
+                                </li>
+                                <li>
+                                    <a href="/ToyotaSurvey">Toyota Quezon Avenue Survey System with CMS</a>
+                                </li>
+                                <li>
+                                    <a href="/RMS">One Morayta Residence Management System</a>
+                                </li>
+                                <li>
+                                    <a href="/OneTACS">One Morayta Turnstile Access Control System</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
