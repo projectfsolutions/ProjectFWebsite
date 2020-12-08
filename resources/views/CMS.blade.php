@@ -1,5 +1,13 @@
 @extends('layouts.fLayout')
 
+@section('meta_tags')
+    @parent
+    <meta property="og:title" content="Card Management System">
+    <meta property="og:url" content="http://projectfsoftwaresolutions.net/CMS">
+    <meta property="og:image" content="http://projectfsoftwaresolutions.net/img/Portfolio/CMS.png">
+    <meta property="og:description" content="Card Management System is uses to manage the issuance of the keycards to the customers who buying it to access the turnstile.">
+@stop
+
 @section('content')
 
 <section class="sub-portfolio-sec">
@@ -25,7 +33,7 @@
             <hr class="portfolio-hr">
 
             <!-- Date/Time -->
-            <p>Posted on December 15, 2019</p>
+            <p>Posted on December 9, 2019</p>
 
             <hr class="portfolio-hr">
 

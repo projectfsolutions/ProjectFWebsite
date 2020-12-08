@@ -94,11 +94,11 @@ hr{
     margin-right: 35%!important; */
 }
 
-a{
+a,.btn-link{
     color: rgb(15, 230, 238);
 }
 
-a:hover{
+a,.btn-link:hover{
     color: rgb(15, 175, 238);
 }
 
@@ -949,4 +949,50 @@ a:hover{
     animation: fadeInDown;
     animation-duration: 2s;
     animation-delay: 2s;
+}
+
+.login-body{
+    background-image: url(../img/Login-BG4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-card{
+    margin-top: 4rem;
+    color: white;
+}
+
+.login-card .card-body{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none!important;
+    background-color: rgb(122, 118, 118);
+}
+
+.login-card .card-header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none!important;
+}
+
+.login-card label,.card-header{
+    font-size: 16px;
+}
+
+.login-card .form-check-input{
+    height: 16px;
+    width: 16px;
+}
+
+.login-label > img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 135px;
+    width: 360px;
+}
+
+.login-title > h4{
+    margin-bottom: 2rem;
+    font-weight: bold;
 }

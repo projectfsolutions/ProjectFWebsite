@@ -6,7 +6,7 @@
     <div class="container text-center mx-auto">
         <div class="row">
             <div class="vision-content col-lg-3 animate__animated animate__zoomIn animate__delay-2s">
-                <h2>Vission</h2>
+                <h2>Vision</h2>
                 <p>To provide the most advanced technology of providing software solutions in the industry.</p>
             </div>
 

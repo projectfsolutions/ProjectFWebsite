@@ -1,5 +1,13 @@
 @extends('layouts.fLayout')
 
+@section('meta_tags')
+    @parent
+    <meta property="og:title" content="Toyota Quezon Avenue Survey System with CMS">
+    <meta property="og:url" content="http://projectfsoftwaresolutions.net/ToyotaSurvey">
+    <meta property="og:image" content="http://projectfsoftwaresolutions.net/img/Portfolio/Survey.png">
+    <meta property="og:description" content="Responsive Web-Based Survey System that they used to take survey to their clients via tablet.">
+@stop
+
 @section('content')
 
 <section class="sub-portfolio-sec">

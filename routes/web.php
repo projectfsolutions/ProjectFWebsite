@@ -11,18 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('HomePage');
-});
-
-Route::get('/HomePage', function () {
-    return view('HomePage');
-});
-
-Route::get('/Admin', function () {
-    return view('HomePage');
-});
-
 Route::get('/About', function () {
     return view('About');
 });
@@ -71,8 +59,50 @@ Route::get('/VMS', function () {
     return view('VMS');
 });
 
-
 Route::post('sendMail','MailController@store');
 
+// Admin CMS Routes
+
+
+Route::get('/AdminWWD', function () {
+    return view('CMS.AdminWWD');
+});
+
+Route::get('/AdminTechnology', function () {
+    return view('CMS.AdminTechnology');
+});
+
+Route::get('/AdminTeam', function () {
+    return view('CMS.AdminTeam');
+});
+
+Route::get('/AdminPortfolio', function () {
+    return view('CMS.AdminPortfolio');
+});
+
+Route::get('/AdminClients', function () {
+    return view('CMS.AdminClients');
+});
+
+Route::resource('/AdminAbout','CMS\ctrlTblAbout');
+
+//HomeWebsite Routes
+Route::get('/','HomeWebsite\ctrlHomePage@index');
+Route::get('/HomePage','HomeWebsite\ctrlHomePage@index');
+Route::get('/Admin','HomeWebsite\ctrlHomePage@index');
+
 Auth::routes();
-Route::get('/AdminMain', 'HomeController@index')->name('AdminMain');
+//CMS Routes
+Route::get('/AdminMain', 'CMS\ctrlTblMainSlider@index');
+Route::post('/AdminMainStore', 'CMS\ctrlTblMainSlider@store');
+Route::post('/AdminMainUpdate', 'CMS\ctrlTblMainSlider@update');
+Route::post('/AdminMainDestroy', 'CMS\ctrlTblMainSlider@destroy');
+
+Route::get('/AdminServices','CMS\ctrlTblServices@index');
+Route::post('/AdminServicesStore','CMS\ctrlTblServices@store');
+Route::post('/AdminServicesUpdate','CMS\ctrlTblServices@update');
+Route::post('/AdminServicesDestroy','CMS\ctrlTblServices@destroy');
+
+
+
+

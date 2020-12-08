@@ -1,0 +1,64 @@
+.navbar-light .navbar-brand{
+    color: rgb(15, 230, 238)!important;
+    font-family: 'Share Tech', sans-serif;;
+}
+
+.bg-top-nav{
+    background-color: black;
+}
+
+.sidebar{
+    min-height: calc(100vh - 70px)!important;
+    min-height: -o-calc(100vh - 5vh); /* opera */
+    min-height: -webkit-calc(100vh - 5vh); /* google, safari */
+    min-height: -moz-calc(100vh - 5vh); /* firefox */
+    /* overflow: auto; */
+}
+
+.content-layout{
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.carousel-item > img{
+    height: 450px;
+    width: 100%;
+}
+
+.slider-td-img{
+    height: 50px;
+    width: 100px;
+}
+
+.err{
+    color:red;
+}
+
+.modal-img{
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.file{
+    visibility: hidden;
+    position: absolute;
+}
+
+#btn-Req{
+    position: absolute;
+    right: 0;
+}
+
+.btn-hide{
+    visibility: hidden;
+}
+
+#ModalDeleteSlide h4{
+    color:#e74a3b;
+}
+
+/* .tdEdit{
+
+} */

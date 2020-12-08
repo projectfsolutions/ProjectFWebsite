@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\tblAbout;
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,6 +13,7 @@ class DatabaseSeeder extends Seeder
 
     public function run()
     {
-        $this->call(users::class);
+        $this->call(UserSeeder::class);
+        $this->call(tblaboutSeeder::class);
     }
 }

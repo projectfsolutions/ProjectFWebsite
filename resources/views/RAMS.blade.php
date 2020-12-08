@@ -1,5 +1,13 @@
 @extends('layouts.fLayout')
 
+@section('meta_tags')
+    @parent
+    <meta property="og:title" content="Grass Residence Access Monitoring System">
+    <meta property="og:url" content="http://www.projectfsoftwaresolutions.net/RAMS">
+    <meta property="og:image" content="http://projectfsoftwaresolutions.net/img/Portfolio/RAIS.png">
+    <meta property="og:description" content="Monitoring of residents who access the main entrance and exit doors of each tower in Grass Residences.">
+@stop
+
 @section('content')
 
 <section class="sub-portfolio-sec">

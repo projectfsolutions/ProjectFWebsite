@@ -1,5 +1,13 @@
 @extends('layouts.fLayout')
 
+@section('meta_tags')
+    @parent
+    <meta property="og:title" content="Visitor Management System">
+    <meta property="og:url" content="http://projectfsoftwaresolutions.net/VMS">
+    <meta property="og:image" content="http://projectfsoftwaresolutions.net/img/Portfolio/VMS.png">
+    <meta property="og:description" content="Management and recording of visitors information with capture images.">
+@stop
+
 @section('content')
 
 <section class="sub-portfolio-sec">

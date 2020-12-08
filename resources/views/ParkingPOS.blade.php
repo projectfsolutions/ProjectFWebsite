@@ -1,5 +1,13 @@
 @extends('layouts.fLayout')
 
+@section('meta_tags')
+    @parent
+    <meta property="og:title" content="Car Park Point-Of-Sale System">
+    <meta property="og:url" content="http://projectfsoftwaresolutions.net/ParkingPOS">
+    <meta property="og:image" content="http://projectfsoftwaresolutions.net/img/Portfolio/ParkingPOS.png">
+    <meta property="og:description" content="Revenue with fully automated parking.">
+@stop
+
 @section('content')
 
 <section class="sub-portfolio-sec">

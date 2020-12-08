@@ -1,41 +1,33 @@
 @extends('layouts.fLayout')
 
+@section('meta_tags')
+    @parent
+    <meta property="og:title" content="Project F Software Solution">
+    <meta property="og:url" content="http://projectfsoftwaresolutions.net">
+    <meta property="og:image" content="http://projectfsoftwaresolutions.net/img/Main_Meta.png">
+    <meta property="og:description" content="Project F Software Solution provides software development services for Desktop Application and Web-based Application. We also do the Software and Device integration to bring you the ideal System Automation.">
+@stop
+
 @section('content')
 <section class="home-top-sec">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            @foreach($rsSlider as $sliderRec)
+            <li data-target="#carouselExampleIndicators" data-slide-to="{{ $sliderRec->Position }}" class=" {{ $loop->first ? ' active' : '' }}"></li>
+            @endforeach
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/Slides/idea1.jpg" alt="First slide">
-                <div class="top-layer">
-                    <h1 class="slide-hd-animate">YOU'VE GOT AN IDEA BUT YOU DIDN'T KNOW IF THAT IS POSSIBLE?</h1>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
-                    </p>
+            @foreach($rsSlider as $sliderRec)
+                <div class="carousel-item {{ $loop->first ? ' active' : '' }}">
+                    <img class="d-block w-100" src="storage/img/slider/{{ $sliderRec->FileName }}" alt="First slide">
+                    <div class="top-layer">
+                    <h1 class="slide-hd-animate">{{ $sliderRec->Description }}</h1>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/Slides/papers3.jpg" alt="Second slide">
-                <div class="top-layer">
-                    <h1 class="slide-hd-animate">TIRED FROM PAPER WORKS AND REPEATABLE MANUAL INTERVENTIONS?</h1>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/Slides/projects2.jpg" alt="Second slide">
-                <div class="top-layer">
-                    <h1 class="slide-hd-animate">FINDING SOLUTIONS TO PROVIDE UNIQUE AUTOMATED SYSTEM FOR YOUR PARTICULAR PROJECT?</h1>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg animate__animated animate__fadeInDown animate__delay-2s" href="#services" role="button">LEARN MORE</a>
-                    </p>
-                </div>
-            </div>
+            @endforeach
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -54,38 +46,32 @@
     </div>
 
     <div class="container">
-        <div class="row services-div">
-            <div class="services-text col-lg-6 aos-init aos-animate" data-aos-delay="500" data-aos="fade-right">
-                <h1>Customized Software</h1>
-                <p>Based on your requirements and idea workflow we make it possible by developing it using the latest technology for desktop application or web-based, whatever the best approach on your side to make your life convenient.</p>
-            </div>
 
-            <div class="col-lg-6 text-right aos-init aos-animate" data-aos="fade-left">
-                <img class="services-img" src="img/Services/customized3.jpg" alt="Generic placeholder image" width="380" height="300">
-            </div>
-        </div>
+        @foreach($rsServices as $serviceRec)
+            @if ($serviceRec->ImgPosition == 'Right')
+                <div class="row services-div">
+                    <div class="services-text col-lg-6 aos-init aos-animate" data-aos-delay="500" data-aos="fade-right">
+                        <h1>{{ $serviceRec->Title }}</h1>
+                        <p>{{ $serviceRec->Description }}</p>
+                    </div>
 
-        <div class="row services-div">
-            <div class="col-lg-6 aos-init aos-animate" data-aos="fade-right">
-                <img class="services-img" src="img/Services/integration.jpg" alt="Generic placeholder image" width="380" height="300">
-            </div>
+                    <div class="col-lg-6 text-right aos-init aos-animate" data-aos="fade-left">
+                        <img class="services-img" src="storage/img/services/{{ $serviceRec->FileName }}" alt="Generic placeholder image" width="380" height="300">
+                    </div>
+                </div>
+            @else
+                <div class="row services-div">
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-right">
+                        <img class="services-img" src="storage/img/services/{{ $serviceRec->FileName }}" alt="Generic placeholder image" width="380" height="300">
+                    </div>
 
-            <div class="services-text col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos-delay="500" data-aos="fade-left">
-                <h1>Software and Hardware Integration</h1>
-                <p>Most of the hardware devices are for input and output purposes only, and we can maximize these potentials by creating and developing the software interface that can handle and decide what will happen to the inputted data and what will need to show as output.</p>
-            </div>
-        </div>
-
-        <div class="row services-div">
-            <div class="services-text col-lg-6 aos-init aos-animate" data-aos-delay="500" data-aos="fade-right">
-                <h1>System Automation</h1>
-                <p>Software customization based on your idea and with the integration of the proper devices, we can assure you to deliver your idea of being automated.</p>
-            </div>
-
-            <div class="col-lg-6 text-right aos-init aos-animate" data-aos="fade-left">
-                <img class="services-img" src="img/Services/automation3.jpg" alt="Generic placeholder image" width="380" height="300">
-            </div>
-        </div>
+                    <div class="services-text col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos-delay="500" data-aos="fade-left">
+                        <h1>{{ $serviceRec->Title }}</h1>
+                        <p>{{ $serviceRec->Description }}</p>
+                    </div>
+                </div>
+            @endif
+        @endforeach
     </div>
 </section>
 

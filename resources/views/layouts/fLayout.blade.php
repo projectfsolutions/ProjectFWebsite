@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Software Development Provider,Software Development Provider Philippines,Software Integration,Software Integration Philippines,Software Solutions,Software Solutions Philippines,Website Development,Website Development Philippines,Website Design,Website Design Philippines,Customized Software,Customized Software Philippines,Customized Software Development,Software Development Philippines,Web-based Development,Web-based Development Philippines,System Automation,System Automation Philippines,Software Automation,Software Automation Philippines,Software Robotics Development,Software Robotics Development Philippines">
+        <meta name="description" content="Project F Software Solution provides software development services for Desktop Application and Web-based Application. We also do the Software and Device integration to bring you the ideal System Automation.">
+
+        @section('meta_tags')
+
+        @show
 
         <title>Project F Software Solution</title>
         <link rel="icon" href="img/f.ico" type="image/ico">
@@ -11,7 +18,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="css/app.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -30,9 +37,9 @@
                         <div class="Social">
                             <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
                         </div>
-                        <div class="Login">
+                        {{-- <div class="Login">
                             <a class="nav-link badge badge-light Login" href="{{ route('AdminMain') }}">Dashboard</a>
-                        </div>
+                        </div> --}}
                     </div>
                     @else
                     <div class="main-top justify-content-end">
@@ -94,6 +101,7 @@
         <div class="web-content-layout">
             @yield('content')
         </div>
+
         {{-- {{json_encode(Route::current()->uri)}} --}}
         <footer class="text-right footer-cont">
             <div class="container">
@@ -107,6 +115,30 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v9.0'
+            });
+          };
+
+          (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your Chat Plugin code -->
+        <div class="fb-customerchat"
+          attribution=setup_tool
+          page_id="1691265414503178">
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

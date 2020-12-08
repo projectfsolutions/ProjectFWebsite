@@ -1,5 +1,13 @@
 @extends('layouts.fLayout')
 
+@section('meta_tags')
+    @parent
+    <meta property="og:title" content="One Morayta Turnstile Access Control System">
+    <meta property="og:url" content="http://projectfsoftwaresolutions.net/OneTACS">
+    <meta property="og:image" content="http://projectfsoftwaresolutions.net/img/Portfolio/OneTurnstile.jpg">
+    <meta property="og:description" content="Monitoring and control for the student residents who pass through the turnstile.">
+@stop
+
 @section('content')
 
 <section class="sub-portfolio-sec">
@@ -45,7 +53,7 @@
                         </div>
 
                         <div class="carousel-item">
-                            <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/OneTACS/AntiPassBack.jpg" alt="Second slide" id="slide1">
+                            <img class="d-block w-100 sub-portfolio-img" src="img/Portfolio/OneTACS/AntiPassback.jpg" alt="Second slide" id="slide1">
                         </div>
 
                         <div class="carousel-item">

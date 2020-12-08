@@ -1,5 +1,13 @@
 @extends('layouts.fLayout')
 
+@section('meta_tags')
+    @parent
+    <meta property="og:title" content="One Morayta Residence Management System">
+    <meta property="og:url" content="http://projectfsoftwaresolutions.net/RMS">
+    <meta property="og:image" content="http://projectfsoftwaresolutions.net/img/Portfolio/RMS.png">
+    <meta property="og:description" content="Management and monitoring of One Morayta Residence.">
+@stop
+
 @section('content')
 
 <section class="sub-portfolio-sec">
